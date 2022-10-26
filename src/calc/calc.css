@@ -1,0 +1,59 @@
+.container {
+  width: 400px;
+  height: 430px;
+  margin: 20px auto;
+  background-color: black;
+  border-bottom: 1px solid black;
+  box-shadow: 2px 2px 20px black;
+}
+
+.display {
+  width: 400px;
+  height: 80px;
+  background-color: rgb(105, 7, 24);
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1px;
+  height: 350px;
+}
+
+.button {
+  background-color: rgb(195, 209, 173);
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(226, 216, 207);
+  color: chocolate;
+}
+
+.ac {
+  display: grid;
+  grid-column: 1/3;
+  border: none;
+  align-items: center;
+  background-color: rgb(195, 209, 173);
+  font-weight: bold;
+}
+
+.zero {
+  display: grid;
+  grid-column: 1/3;
+  border: none;
+  align-items: center;
+  font-weight: bold;
+  background-color: rgb(195, 209, 173);
+}
