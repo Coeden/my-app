@@ -10,7 +10,7 @@ return (
 		<Router>
       <Routes>
         <Route path='error' element={<Error />} />
-        <Route path='users' element={<Users />}>
+        <Route path='/' element={<Users />}>
           <Route path=':userId' element={<Users />} />
         </Route> 
       </Routes>
